@@ -33,7 +33,7 @@ export default function ListSongs() {
                         {
                             Datasongs.map((song, index) =>
                                 <tr key={index}
-                                    className={`h-12  bg-slate-800 cursor-pointer text-zinc-400 hover:bg-gray-500 ${idSong === song.id && ' text-teal-300'}`}
+                                    className={`h-12  bg-slate-800 cursor-pointer text-zinc-400 hover:bg-gray-500 ${idSong === song.id && ' text-teal-200'}`}
                                     onClick={() => handlePlaySong(song.id)}
                                 >
                                     <td className='text-center'>{index + 1}</td>
